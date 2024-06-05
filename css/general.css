@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #010005;
+  --secondary-color: #8D81AC;
+  --purple-color: #635C74;
+  --pricing-bg-color: #745963;
+  --text-light-color: #fff;
+  --bg-light-color: #FAFAFA;
+  --text-gray-color: #848E97;
+  --bg-gray-color: #F4F4F4;
+  --secondary-bg-gray-color: #74606B;
+  --purchase-btn-color: #786B79;
+  --specialize-color: #4B3449;
+  --specialize-title-color: #412D41;
+  --navbar-bg-color: #27262A;
+  --menu-bg-color: #333;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  display: none;
+}
+
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100vw;
+  min-height: 100vh;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+button,
+a {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
+button:hover {
+    border: none;
+    outline: none;
+}
+
+button:disabled {
+    cursor: default;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+      font-size: 13px;
+  }
+}
+@media screen and (max-width: 460px) {
+  body {
+      font-size: 12px;
+  }
+}
